@@ -136,15 +136,45 @@ nav{
 }
 /*=====About part End====*/
 /*===== Our Recipies part start====*/
-
-
-
-
-
-
-
-
-
+.recipies_section{
+    background-color: rgb(230, 226, 226);
+    padding: 40px 0;
+}
+.recipies_top{
+    text-align: center;
+}
+.recipies_bottom{
+    padding-bottom: 50px;
+}
+.text_01 {
+    width: 95%;
+    margin: auto;
+    font-size: 1rem;
+    padding-bottom: 3.4rem;
+}
+.recipies_boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    background-color: var(--white);
+    padding-left: 15px;
+}
+.box_top img{
+    width: 93%;
+    padding: 10px;
+    transform: scale(1);
+}
+.box_top img:hover{
+    transform: scale(1.1);
+}
+.text_02{
+    font-size: 0.8rem;
+    width: 80%;
+    font-weight: 700;
+}
 /*=====Our Recipies part End====*/
 /*===== Percentages part start====*/
 
