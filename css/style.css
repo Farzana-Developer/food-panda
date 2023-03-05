@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap');
+:root{
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --bg: #fdfbfb;
+    --primary: #FF6347;
+    --second: #575757;
+    --black: #000000;
+    --white: #F5F5F5;
+    --last: #0B0D17;
+}
+*{
+    font-family: 'Golos Text', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline-offset: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: all .5s linear;
+}
+body{
+    line-height: 1.5;
+    background-color: var(--bg);
+   position: relative;
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+/*=====Common Button part start====*/
+.btn{
+    font-size: 1.2rem;
+    color: var(--white);
+    border-radius: 23px;
+    border: 1px solid transparent;
+    padding: 8px 21px;
+    background-color: var(--primary);
+    font-weight: 700;
+}
+.btn:hover{
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    color: var(--primary);
+}
+h2{
+    color: var(--second);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+p{ 
+     width: 123%;
+    color: var(--second);
+    padding-bottom: 1.5rem;
+}
+/*=====Common Button part End====*/
+/*=====Nav part start====*/
+nav{
+    width: 100%;
+    border-bottom: 2px solid var(--primary);
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;   
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+.nav_menu{
+    display: inline-flex;
+    align-items: center;
+    gap: 2.5rem;
+    width: 65%;
+    justify-content: space-between;
+}
+.nav_menu li a{
+    font-size: 1.3rem;
+    color: var(--primary);  
+    font-weight: 700;
+}
+.nav_menu li a:hover{
+    color: var(--second);
+}
+/*=====Nav part End====*/
+/*=====Header part start====*/
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    width: 45%;
+}
+.header_right{
+    width: 45%;
+}
+.header_right img{
+    width: 100%;
+}
+.header_left h2 span{
+    color: var(--primary);
+}
+/*=====Header part End====*/
+/*===== About part start====*/
+.about_img{
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--bg);
+    padding-top: 40px;
+}
+.section_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_left{
+    width: 48%;
+}
+.section_left img{
+    width: 56%;
+}
+.section_right{
+    width: 52%;
+}
+/*=====About part End====*/
+/*===== Our Recipies part start====*/
+
+
+
+
+
+
+
+
+
+/*=====Our Recipies part End====*/
+/*===== Percentages part start====*/
+
+
+
+
+
+
+
+
+
+/*=====Percentages part End====*/
+/*===== Contact Us part start====*/
+
+
+
+
+
+
+
+
+
+
+/*=====Contact Us part End====*/
+/*===== Footer part start====*/
+
+
+
+
+
+
+
+
+
+
+/*=====Footer part End====*/
+
